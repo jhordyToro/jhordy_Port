@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portafolio - Jhordy</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/index.css">
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+</head>
+<body>
+  <header class="header">
+    <div class="wrapper">
+      <div class="header-content">
+        <nav class="menu" aria-label="main-navigation">
+          <ul>
+            <li>
+              <a class="is-active" href="#main">Hi!</a>
+            </li>
+            <li>
+              <a href="#project">Projects</a>
+            </li>
+            <li>
+              <a href="#contact">let's talk</a>
+            </li>
+          </ul>
+        </nav>
+        <a href="#" class="button">Download CV</a>
+      </div>
+    </div>
+  </header>
+  <div class="wrapper">
+
+
+    <section aria-label="main" class="hero" id="main">
+      <div class="hero-image">
+        <img class="face" src="./images/pink-gradient-designify(2).png" width="338" height="330" alt="">
+      </div>
+      <div class="hero-description">
+        <h1 class="animate__animated animate__fadeInLeft">
+          <span>Hello everyone!</span>
+          <span>I'm Jhordy</span>
+        </h1>
+        <p>
+          backend developer passionate about the great world of technology
+        </p>
+        <div class="social">
+          <a class="button-icon" href="tel:+57 3205221550"><img src="./icons/icon-phone.svg"></a>
+          <a class="button-icon" target="_blank" href="https://github.com/jhordyToro"><img src="./icons/icon-github.svg"></a>
+          <a class="button-icon" target="_blank" href="https://www.instagram.com/jhordy_0220/"><img src="./icons/icon-instagram.svg"></a>
+          <a class="button-icon" target="_blank" href="https://twitter.com/jhordy_toro"><img src="./icons/icon-twitter.svg"></a>
+        </div>
+        <a href="https://github.com/jhordyToro?tab=repositories" target="_blank" class="button">All my projects</a>
+      </div>
+    </section>
+
+    <div class="project" id="project">
+      <div class="project-image">
+        <img src="./images/chat-real-time2 (1).gif" alt="">
+      </div>
+      <div class="project-description">
+        <a class="title"  href="#">JhordySamuelToro.com</a>
+        <p>This is a real-time chat project, it takes place in public chat rooms. each user with a logged in session and a unique username.
+          the only flaw is that it has the default database. but otherwise is functional</p>
+        <a target="_blank" href="https://github.com/jhordyToro/Real-Time-Chat-v3.0" class="button">view project</a>
+      </div>
+
+    </div>
+
+    <div class="project">
+      <div class="project-image">
+        <img src="./images/PageDjango.gif" alt="">
+      </div>
+      <div class="project-description">
+        <a class="title" href="#">JhordySamuelToro.com</a>
+        <p>this program is created with Django rest-framework connected to a postgresql database it is based on (Create, Read, Update and Delete) certain basic data of a user complaint (Full Backend)</p>
+        <a target="_blank" href="https://github.com/jhordyToro/CRUD-Django-RestFramework" class="button">view project</a>
+      </div>
+
+    </div>
+    <!-- <div class="project">
+      <div class="project-image">
+        <img src="./images/PageDjango.gif" alt="">
+      </div>
+      <div class="project-description">
+        <a class="title" href="#">JhordySamuelToro.com</a>
+        <p>this program is created with Django rest-framework connected to a postgresql database it is based on (Create, Read, Update and Delete) certain basic data of a user complaint (Full Backend)</p>
+        
+        <a target="_blank" href="https://github.com/jhordyToro/CRUD-Django-RestFramework" class="button">Ver Proyecto</a>
+      </div> -->
+
+    </div>
+    <form name="contact" method="POST" class="form" data-netlify="true">
+      <div class="form-content">
+        <h2 class="title">Let's talk</h2>
+        <p>If you are interested in working with me on your next project, please do not hesitate to contact me.</p>
+        <label for="form-name">
+          Full name
+          <input required name="name" id="form-name" type="text" placeholder="Enter your name here.">
+        </label>
+        <label for="form-name">
+          Email
+          <input required name="email" id="form-name" type="email" placeholder="Enter your email here.">
+        </label>
+        <label for="form-name">
+          Message
+          <textarea required name="message" placeholder="enter your message here" id="form-message" cols="30" rows="7"></textarea>
+        </label>
+        <button class="button" type="submit">Send Message</button>
+      </div>
+    </form>
+    <footer class="footer" id="contact">
+      <div class="footer-content">
+        <div class="footer-logo">
+        </div>
+      </div>
+    </footer>
+  </div>
+
+
+
+</body>
+</html>
